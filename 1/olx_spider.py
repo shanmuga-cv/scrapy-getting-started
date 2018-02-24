@@ -1,7 +1,7 @@
 import scrapy
 from urllib.parse import urlparse, parse_qs
 
-class AmazonSpider(scrapy.Spider):
+class OlxSpider(scrapy.Spider):
     name = 'olx'
     
     start_urls = ['https://www.olx.in/chennai/cars/q-car/?search%5Bdescription%5D=1',
